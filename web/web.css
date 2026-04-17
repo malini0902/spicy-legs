@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.head{
+    display: flex;
+    padding-top: 70px;
+    justify-content: space-between;
+   
+}
+nav{
+    margin-right: 70px;
+    margin-top: 20px;
+}
+nav a{
+    padding-left: 50px;
+    text-decoration: none;
+    color: white;
+}
+.heading h1{
+    margin-left: 70px;
+    color: white;
+}
+#backing{
+    justify-content: center;
+    justify-items: center;
+    padding-top: 120px;
+    position: relative;    
+}
+.header h1{
+    padding-bottom: 40px;
+    color: white;
+}
+.userid{
+    padding: 20px;
+    text-decoration: underline;
+}
+.userid input{
+    padding: 10px;
+    width: 280px;
+   border-color: rgb(255, 255, 255);
+    outline: none;
+    background: transparent;
+    color: white;
+    border-width: 0px 0px 1px 0px;
+  
+}
+.forgot a{
+    margin-left: 140px;
+}
+.btn{
+    padding-top: 50px;
+  
+}
+.btns{
+    width:270px ;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 10px 10px 2pc black;
+}
+.para{
+    padding-top: 40px;
+    color: white;
+}
+.para a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+}
+.forgot a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.background{
+    background-image: url(photo/pexels-igor-murakhin-81016149-10309473.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.btns a{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.forgot a:hover{
+    text-decoration: underline;
+}
+.para a:hover{
+    text-decoration: underline;
+}
